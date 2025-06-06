@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - Giovanni</title>
   <link href="style.css" rel="stylesheet">
+   <script src="script.js"></script>
 </head>
 <body>
   <header>
@@ -13,37 +14,44 @@
   </header>
 
   <main>
-    <section>
+     <section class="about-section">
       <h2>À propos</h2>
-      <p>Je suis un futur Web Designer passionné par la création d’interfaces modernes et intuitives. Actuellement en formation à la Creative Tech School, je développe des projets concrets mêlant design, HTML, CSS et UX/UI.</p>
+      <p>Je suis un futur Web Designer passionné par la création d'interfaces modernes et intuitives. Actuellement en formation à la Creative Tech School, je développe des projets concrets mêlant design, HTML, CSS et UX/UI. Mon objectif est de créer des expériences web qui allient esthétique et fonctionnalité.</p>
     </section>
 
     <section>
       <h2>Projets</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>La Fourchette du Soleil</h3>
+          <p>Site vitrine fictif pour un restaurant traditionnel. Ce projet met en avant un menu, une présentation et un formulaire de contact dans une mise en page responsive.</p>
+          <img src="images/apercufourchette.png" alt="Capture d'écran du site vitrine restaurant La Fourchette du Soleil">
+          <div class="button-group">
+            <a class="button" href="https://emile-ness.github.io/Projet-restaurant-fictif/" target="_blank">Voir le projet</a>
+            <a class="button" href="https://github.com/Emile-ness/Projet-restaurant-fictif.git" target="_blank">Code source</a>
+          </div>
+        </div>
 
-      <div class="project-card">
-        <h3>La Fourchette du Soleil</h3>
-        <p>Site vitrine fictif pour un restaurant traditionnel. Ce projet met en avant un menu, une présentation et un formulaire de contact dans une mise en page responsive.</p>
-        <a class="button" href="https://emile-ness.github.io/Projet-restaurant-fictif/" target="_blank">Voir le projet</a>
-        <a class="button" href="https://github.com/Emile-ness/Projet-restaurant-fictif.git" target="_blank">Code source</a>
-      <img src="images/apercufourchette.png" alt="Capture d'écran du site vitrine restaurant La Fourchette du Soleil">
-      </div>
-      <div class="project-card">
-        <h3>PixelCraft Studio</h3>
-        <p>Site vitrine fictif d'agence web réalisé en HTML/CSS.</p>
-        <a class="button" href="https://emile-ness.github.io/pixelcraft/" target="_blank">Voir le projet</a>
-        <a class="button" href="https://github.com/Emile-ness/pixelcraft.git" target="_blank">Code source</a>
-        <img src="images/apercupixelcraft.png" alt="Aperçu du site PixelCraft Studio">
-      </div>
+        <div class="project-card">
+          <h3>PixelCraft Studio</h3>
+          <p>Site vitrine fictif d'agence web réalisé en HTML/CSS. Un design moderne et professionnel qui met en valeur les services d'une agence créative.</p>
+          <img src="images/apercupixelcraft.png" alt="Aperçu du site PixelCraft Studio">
+          <div class="button-group">
+            <a class="button" href="https://emile-ness.github.io/pixelcraft/" target="_blank">Voir le projet</a>
+            <a class="button" href="https://github.com/Emile-ness/pixelcraft.git" target="_blank">Code source</a>
+          </div>
+        </div>
 
-      <div class="project-card">
-        <h3>Neon Pulse</h3>
-        <p>Un site pour un festival de musique électronique réalisé en html/css et un peu de javascript.</p>
-        <a class="button" href="https://emile-ness.github.io/Neon-pulse-Caen/" target="_blank">Voir le projet</a>
-        <a class="button" href="https://github.com/Emile-ness/Neon-pulse-Caen.git" target="_blank">Code source</a>
-        <img src="images/neon-pulse-festival.png" alt="Aperçu du site neon pixel">
+        <div class="project-card">
+          <h3>Neon Pulse</h3>
+          <p>Un site pour un festival de musique électronique réalisé en HTML/CSS et JavaScript. Design immersif avec des effets visuels captivants.</p>
+          <img src="images/neon-pulse-festival.png" alt="Aperçu du site neon pixel">
+          <div class="button-group">
+            <a class="button" href="https://emile-ness.github.io/Neon-pulse-Caen/" target="_blank">Voir le projet</a>
+            <a class="button" href="https://github.com/Emile-ness/Neon-pulse-Caen.git" target="_blank">Code source</a>
+          </div>
+        </div>
       </div>
-
     </section>
   </main>
 
